@@ -128,7 +128,7 @@ npm start
 ## 📞 Contato
 - 👨‍💻 **Autor:** Rafael Souza 
 - 📧 **Email:** [rafael.h.souza@outlook.com](mailto:rafael.h.souza@outlook.com)  
-- 📊 **LinkedIn:**[LinkedIn](https://www.linkedin.com/in/rafael-henrique-de-souza/)
+- 📊 **LinkedIn:** [[LinkedIn](https://www.linkedin.com/in/rafael-henrique-de-souza/)](https://www.linkedin.com/in/rafael-henrique-de-souza/)
 
 ---
 
