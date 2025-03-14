@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotações em Tempo Real</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-area">
+                <img src="../assets/logo.png" alt="Logo" class="logo">
+                <h1>Cotações em Tempo Real</h1>
+            </div>
+            <div class="user-actions">
+                <button class="btn-login">Login</button>
+                <button class="btn-create">Criar Conta</button>
+            </div>
+        </div>
+        <div class ="carousel-moeda">
+            <div class="carousel" id="carousel"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="currency-info">
+            <h1>Cotações de Moedas</h1>
+            <div class="currency-list" id="currency-list"></div>
+        </section>
+
+        <section class="indices">
+            <h2>Índices Financeiros</h2>
+            <div class="index-container">
+                <div class="index-item">
+                    <h3>Mini Índice (WIN)</h3>
+                    <p id="mini-indice">Carregando...</p>
+                </div>
+
+                <div class="index-item">
+                    <h3>Mini Dólar (WDO)</h3>
+                    <p id="mini-dolar">Carregando...</p>
+                </div>
+                
+                <div class="index-item">
+                    <h3>Mini Bitcoin (MBTC)</h3>
+                    <p id="mini-bitcoin">Carregando...</p>
+                </div>
+                
+                <div class="index-item">
+                    <h3>Ações Itaú (ITUB4)</h3>
+                    <p id="acao-itau">Carregando...</p>
+                </div>
+                
+                <div class="index-item">
+                    <h3>Ibovespa (IBOV)</h3>
+                    <p id="ibovespa">Carregando...</p>
+                </div>
+                
+                <div class="index-item">
+                    <h3>Ações Petrobras (PETR4)</h3>
+                    <p id="acao-petrobras">Carregando...</p>
+                </div>
+                
+                <div class="index-item">
+                    <h3>Taxa de Juros Brasil (Selic)</h3>
+                    <p id="juros-brasil">Carregando...</p>
+                </div>
+                
+                <div class="index-item">
+                    <h3>Taxa de Juros EUA (FED)</h3>
+                    <p id="juros-eua">Carregando...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Cotações em Tempo Real | <i>Solution Tech IO</i></p>
+    </footer>
+
+    <script src="../scripts/scripts.js"></script>
+</body>
+</html>
